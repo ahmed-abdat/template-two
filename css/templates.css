@@ -910,7 +910,8 @@ header .form .sech {
   text-decoration: none;
   display: block;
   width: fit-content;
-  padding: 20px;
+  font-size: 16px;
+  padding: 1.3em;
   margin: 20px auto;
   color: var(--maincolor);
   border: 2px solid var(--maincolor);
@@ -930,11 +931,11 @@ header .form .sech {
 .pricing .contact-link {
   display: block;
   width: fit-content;
-  margin: 20px auto;
+  margin: 1.3em auto;
   background-color: var(--maincolor);
   color: #fff;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 1em 1.3em;
 }
 /* end Pricing */
 
