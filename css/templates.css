@@ -601,7 +601,7 @@ button {
  
  button div {
   transform: translateY(0px);
-  width: 100%;
+ min-width: 100%;
  }
  
  button,
@@ -612,7 +612,7 @@ button {
  button div span {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 50px;
   padding: 0.75em 1.125em;
  }
