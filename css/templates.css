@@ -588,7 +588,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 150px;
+  max-width: 145px;
   height: 50px;
   border-radius: 0.4em;
   box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);
