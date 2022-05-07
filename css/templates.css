@@ -585,8 +585,8 @@ button {
   margin: 1.35em auto 0;
   outline: none;
   border: none;
-  width: 100%;
-  max-width: 140px;
+  /* width: 100%;
+  max-width: 140px; */
   height: 50px;
   display: flex;
   flex-direction: column;
