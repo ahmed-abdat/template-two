@@ -594,15 +594,14 @@ button {
   overflow: hidden;
   border-radius: 0.4em;
 }
-button p {
-  width: 100%;
 
-}
 button p {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   height: 50px;
+  width: 100%;
+  max-width: 140px;
   font-size: 18px;
   transform: translateY(0);
   padding: 15px;
@@ -632,7 +631,8 @@ button p a {
   text-decoration: none;
   color: #fff;
   display: block;
-  width: 100%;
+  width: inherit;
+  height: inherit;
 }
 
 button p:first-of-type {
