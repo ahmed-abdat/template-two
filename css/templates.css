@@ -600,8 +600,7 @@ button p {
   font-weight: bold;
   text-transform: uppercase;
   height: 50px;
-  width: 100%;
-  max-width: 140px;
+  min-width: 100%;
   font-size: 18px;
   transform: translateY(0);
   padding: 15px;
