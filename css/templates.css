@@ -1211,13 +1211,14 @@ button:active {
   width: 150px;
   height: 50px;
   border-radius: inherit;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: inherit;
   font-weight: 600;
   font-size: 17px;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 2px;
-  color: #eeeeed;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
   background-color: var(--maincolor);
   padding: 0 10px;
   -webkit-transition: all 1.2s ease;
