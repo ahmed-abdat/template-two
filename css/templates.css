@@ -107,6 +107,11 @@ ul {
   color: var(--mainheading-p-clr);
 }
 
+::selection {
+  color: #eee;
+  background-color: var(--maincolor);
+}
+
 /* end components */
 
 /* Start header  */
@@ -997,7 +1002,7 @@ button:active {
   font-weight: 900;
   content: "\f10d";
   position: relative;
-  color: #009688;
+  color: var(--maincolor);
   left: -0.4em;
 }
 .quote .container q::after {
@@ -1005,7 +1010,7 @@ button:active {
   font-weight: 900;
   content: "\f10e";
   position: relative;
-  color: #009688;
+  color: var(--maincolor);
   right: -0.4em;
 }
 /* end quote */
@@ -1331,7 +1336,7 @@ button:active {
   left: 25px;
 }
 .subscribe form input[type="email"] {
-  border: 1px solid white;
+  border: 1px solid var(--maincolor);
   border-right: none;
   background: none;
   padding: 20px 20px 20px 60px;
@@ -1345,7 +1350,7 @@ button:active {
   width: 130px;
   background-color: var(--maincolor);
   color: white;
-  border: 1px solid white;
+  border: 1px solid var(--maincolor);
   border-left: none;
   padding: 10px 20px;
   text-transform: uppercase;
