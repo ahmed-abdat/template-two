@@ -1197,11 +1197,11 @@ button:active {
 }
  
  .btn:hover {
-          -webkit-transform: scale(1.1);
-          -ms-transform: scale(1.1);
-          transform: scale(1.1);
-          -moz-transform: scale(1.1);
-          -o-transform: scale(1.1);
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          -moz-transform: scale(1.2);
+          -o-transform: scale(1.2);
           background-color: #eeeeed;
 }
  
@@ -1267,14 +1267,26 @@ button:active {
  
  .btn:hover span {
   opacity: 0;
+  pointer-events: none;
  }
+ 
  
  .btn:hover svg {
   opacity: 1;
  }
+ .btn .container {
+   margin-right: 15px;
+ }
+.btn .container a {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+  pointer-events: none;
+}
 
-
-
+.btn:hover a  {
+  pointer-events: auto ;
+}
 
 
 /* end Pricing */
