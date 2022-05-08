@@ -1091,14 +1091,13 @@ button:active {
   -o-transition: 0.3s;
 } */
 
-.plans .foot button {
+.plans .foot .plan-link {
   --color: #19c8fa;
   font-family: inherit;
-  display: inline-block;
   width: 8em;
   height: 2.6em;
   line-height: 2.5em;
-  margin: 20px;
+  margin: 20px auto;
   position: relative;
   overflow: hidden;
   border: 1px solid var(--color);
@@ -1110,10 +1109,16 @@ button:active {
   font-weight: 500;
   color: var(--color);
   background: #fff;
-  outline: none;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
-.plans .foot button:before {
+.plans .foot .plan-link:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -1124,13 +1129,12 @@ button:active {
 }
 
 
-.plans .foot button:hover,
-.plans .foot button:focus {
+.plans .foot .plan-link:hover,
+.plans .foot .plan-link:focus {
   color: #fff;
-  outline: none;
 }
 
-.plans .foot button:before {
+.plans .foot .plan-link:before {
   top: 100%;
   left: 100%;
   -webkit-transition: all 0.7s;
@@ -1140,14 +1144,14 @@ button:active {
   -o-transition: all 0.7s;
 }
 
-.plans .foot button:hover:before,
-.plans .foot button:focus::before {
+.plans .foot .plan-link:hover:before,
+.plans .foot .plan-link:focus::before {
   top: -30px;
   left: -30px;
 }
 
 
-.plans .foot button a {
+.plans .foot .plan-link a {
   color: inherit;
   text-decoration: none;
 }
