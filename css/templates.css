@@ -519,7 +519,13 @@ header .form .sech {
 }
 
 /* tsting */
-button {
+.portofolio .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.35em;
+}
+.portofolio button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -668,14 +674,16 @@ button {
 
 /* tsting */
 
-button {
+.video button {
   margin: 1.35em auto 0;
+  max-width: 150px;
+  width: 100%;
   outline: none;
   border: none;
   height: 50px;
   display: flex;
   flex-direction: column;
-  /* box-shadow: 0 0.625em 1em 0 rgb(30 143 255 / 35%); */
+  box-shadow: 0 0.625em 1em 0 rgb(30 143 255 / 35%);
   overflow: hidden;
   border-radius: 0.4em;
 }
@@ -685,7 +693,8 @@ button p {
   font-weight: bold;
   text-transform: uppercase;
   height: 50px;
-  min-width: 100%;
+  min-width: 150px;
+  width: 100%;
   font-size: 18px;
   transform: translateY(0);
   padding: 15px;
