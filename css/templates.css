@@ -1104,7 +1104,7 @@ button:active {
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
   z-index: 1;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
