@@ -1110,6 +1110,7 @@ button:active {
   font-weight: 500;
   color: var(--color);
   background: #fff;
+  outline: none;
 }
 
 .plans .foot button:before {
@@ -1122,9 +1123,11 @@ button:active {
   border-radius: 50%;
 }
 
+
 .plans .foot button:hover,
 .plans .foot button:focus {
   color: #fff;
+  outline: none;
 }
 
 .plans .foot button:before {
