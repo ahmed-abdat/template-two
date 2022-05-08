@@ -523,7 +523,11 @@ header .form .sech {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.35em;
+  margin-top: 2.35em;
+}
+.btns .button-text a {
+  text-decoration: none;
+  color: inherit;
 }
 .portofolio button {
   position: relative;
@@ -543,13 +547,13 @@ header .form .sech {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
 }
- 
- button.learn-more {
+
+button.learn-more {
   width: 12rem;
   height: auto;
- }
- 
- button.learn-more .circle {
+}
+
+button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -558,26 +562,26 @@ header .form .sech {
   height: 3rem;
   background: var(--maincolor);
   border-radius: 1.625rem;
- }
- 
- button.learn-more .circle .icon {
+}
+
+button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #fff;
- }
- 
- button.learn-more .circle .icon.arrow {
+}
+
+button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
- }
- 
- button.learn-more .circle .icon.arrow::before {
+}
+
+button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.29rem;
@@ -587,9 +591,9 @@ header .form .sech {
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
- }
- 
- button.learn-more .button-text {
+}
+
+button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -603,20 +607,20 @@ header .form .sech {
   line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
- }
- 
- button:hover .circle {
+}
+
+button:hover .circle {
   width: 100%;
- }
- 
- button:hover .circle .icon.arrow {
+}
+
+button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
- }
- 
- button:hover .button-text {
+}
+
+button:hover .button-text {
   color: #fff;
- }
+}
 
 /* .portofolio .more {
   text-decoration: none;
@@ -658,7 +662,7 @@ header .form .sech {
   color: #fff;
   text-align: center;
 }
-@media (max-width : 767px) {
+@media (max-width: 767px) {
   .video .text {
     height: 100%;
     padding: 40px;
@@ -669,8 +673,6 @@ header .form .sech {
   text-transform: uppercase;
   font-weight: normal;
 }
-
-
 
 /* tsting */
 
@@ -1085,7 +1087,6 @@ button:active {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-
 
 .pricing p.contate-text {
   text-align: center;
