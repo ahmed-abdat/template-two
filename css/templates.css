@@ -1341,6 +1341,7 @@ button:active {
   padding: 20px 20px 20px 60px;
   caret-color: var(--maincolor);
   width: calc(100% - 130px);
+  color: #fff;
 }
 .subscribe form input[type="submit"] {
   width: 130px;
