@@ -1128,7 +1128,6 @@ button:active {
   border-radius: 50%;
 }
 
-
 .plans .foot .plan-link:hover,
 .plans .foot .plan-link:focus {
   color: #fff;
@@ -1149,7 +1148,6 @@ button:active {
   top: -30px;
   left: -30px;
 }
-
 
 .plans .foot .plan-link a {
   color: inherit;
@@ -1179,8 +1177,8 @@ button:active {
   border-radius: 0.5em;
   border: none;
   padding: 0 80px;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1191,21 +1189,21 @@ button:active {
   -moz-border-radius: 0.5em;
   -ms-border-radius: 0.5em;
   -o-border-radius: 0.5em;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
- 
- .btn:hover {
-          -webkit-transform: scale(1.2);
-          -ms-transform: scale(1.2);
-          transform: scale(1.2);
-          -moz-transform: scale(1.2);
-          -o-transform: scale(1.2);
-          background-color: #eeeeed;
+
+.btn:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  background-color: #eeeeed;
 }
- 
- .btn span {
+
+.btn span {
   position: absolute;
   z-index: 99;
   width: 150px;
@@ -1231,8 +1229,8 @@ button:active {
   -ms-border-radius: inherit;
   -o-border-radius: inherit;
 }
- 
- .btn .container {
+
+.btn .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1244,39 +1242,38 @@ button:active {
   -ms-border-radius: 80px;
   -o-border-radius: 80px;
 }
- 
- .btn svg {
+
+.btn svg {
   padding: 0 5px;
   opacity: 0;
- }
- 
- .btn .container svg:nth-of-type(1) {
+}
+
+.btn .container svg:nth-of-type(1) {
   -webkit-transition-delay: 0.65s;
-          transition-delay: 0.65s;
- }
- 
- .btn .container svg:nth-of-type(2) {
+  transition-delay: 0.65s;
+}
+
+.btn .container svg:nth-of-type(2) {
   -webkit-transition-delay: 0.8s;
-          transition-delay: 0.8s;
- }
- 
- .container svg:nth-of-type(3) {
+  transition-delay: 0.8s;
+}
+
+.container svg:nth-of-type(3) {
   -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
- }
- 
- .btn:hover span {
+  transition-delay: 0.5s;
+}
+
+.btn:hover span {
   opacity: 0;
   pointer-events: none;
- }
- 
- 
- .btn:hover svg {
+}
+
+.btn:hover svg {
   opacity: 1;
- }
- .btn .container {
-   margin-right: 15px;
- }
+}
+.btn .container {
+  margin-right: 15px;
+}
 .btn .container a {
   display: flex;
   align-items: center;
@@ -1284,10 +1281,9 @@ button:active {
   pointer-events: none;
 }
 
-.btn:hover a  {
-  pointer-events: auto ;
+.btn:hover a {
+  pointer-events: auto;
 }
-
 
 /* end Pricing */
 
@@ -1365,11 +1361,6 @@ button:active {
   color: #fff;
 }
 
-
- 
-
-
-/* end tsting btn */
 .subscribe p {
   line-height: 2;
   margin-left: 35px;
@@ -1432,6 +1423,11 @@ button:active {
   margin-left: auto;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .contact-us .info {
