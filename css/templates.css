@@ -1539,6 +1539,9 @@ button:active {
 .footer .social-icons i:hover {
   color:var(--maincolor);
 }
+.footer .social-icons a:hover {
+  color: var(--maincolor);
+}
 .footer .copyright {
   margin-top: 60px;
 }
