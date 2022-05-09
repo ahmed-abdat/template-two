@@ -1519,7 +1519,7 @@ button:active {
   margin: 20px auto;
 }
 .footer .social-icons i {
-  padding: 10px 15px;
+  padding: 10px;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
@@ -1529,6 +1529,12 @@ button:active {
 .footer .social-icons a {
   color: #fff;
   text-decoration: none;
+  margin-right: 10px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 .footer .social-icons i:hover {
   color:var(--maincolor);
