@@ -792,7 +792,7 @@ button:active {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
   text-align: center;
-  background-image: url("../img/portofulio/shuffle-07.jpg");
+  background-image: url("../img/stats.png");
   background-size: cover;
   position: relative;
 }
