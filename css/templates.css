@@ -530,100 +530,113 @@ header .form .sech {
   align-items: center;
   margin-top: 2.35em;
 }
-.btns .button-text a {
-  text-decoration: none;
-  color: inherit;
-}
-.portofolio button {
+
+.container-btn {
+  width: 12rem;
   position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
   padding: 0;
-  font-size: inherit;
-  font-family: inherit;
+  transition: cubic-bezier(0.16, 1, 0.3, 1);
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+  -webkit-transition: cubic-bezier(0.16, 1, 0.3, 1);
+  -moz-transition: cubic-bezier(0.16, 1, 0.3, 1);
+  -ms-transition: cubic-bezier(0.16, 1, 0.3, 1);
+  -o-transition: cubic-bezier(0.16, 1, 0.3, 1);
 }
-
-button.learn-more {
-  width: 12rem;
-  height: auto;
-}
-
-button.learn-more .circle {
+.container-btn .circle-container {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  width: 3em;
+  height: 3em;
+  border-radius: 40px;
+  background: #03a9f4;
+  margin-right: 1.5em;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.circle {
   position: relative;
-  display: block;
-  margin: 0;
   width: 3rem;
   height: 3rem;
-  background: var(--maincolor);
-  border-radius: 1.625rem;
-}
-
-button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
-button.learn-more .circle .icon.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.625rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-button.learn-more .circle .icon.arrow::before {
-  position: absolute;
+.container-btn .circle-container .circle::before {
   content: "";
-  top: -0.29rem;
-  right: 0.0625rem;
-  width: 0.625rem;
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  width: 1.125rem;
+  height: 2px;
+  transform: translateY(-50%);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.container-btn .circle-container .circle::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 1.225rem;
+  width: 0.6825rem;
   height: 0.625rem;
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.container-btn .btns {
+  position: absolute;
+  color: #03a9f4;
+  top: -21px;
+  right: 30px;
+  padding: 0 0 0 35px;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
-button.learn-more .button-text {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.75rem 0;
-  margin: 0 0 0 1.85rem;
-  color: var(--maincolor);
-  font-weight: 700;
-  line-height: 1.6;
-  text-align: center;
+.container-btn .btns a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
-button:hover .circle {
+.container-btn:hover .circle-container {
   width: 100%;
 }
 
-button:hover .circle .icon.arrow {
-  background: #fff;
-  transform: translate(1rem, 0);
+.container-btn:hover .circle::after {
+  transform: translateX(1.5em) rotate(45deg);
+  -webkit-transform: translateX(1.5em) rotate(45deg);
+  -moz-transform: translateX(1.5em) rotate(45deg);
+  -ms-transform: translateX(1.5em) rotate(45deg);
+  -o-transform: translateX(1.5em) rotate(45deg);
+}
+.container-btn:hover .circle::before {
+  background-color: #fff;
+  transform: translate(1.5em, -50%);
+  -webkit-transform: translate(1.5em, -50%);
+  -moz-transform: translate(1.5em, -50%);
+  -ms-transform: translate(1.5em, -50%);
+  -o-transform: translate(1.5em, -50%);
 }
 
-button:hover .button-text {
+.container-btn:hover .btns {
   color: #fff;
 }
 
